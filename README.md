@@ -1,10 +1,24 @@
 # sklearn_exercises_1
 
-Ejercicio de scikit-learn: entrenamiento con DecisionTreeClassifier y predicción con observaciones nuevas.
+Práctica básica de **scikit-learn** usando un **DecisionTreeClassifier**:
+- Generación de un dataset **sintético** (`generate_dataset.py`)
+- Creación de una etiqueta binaria de precio (`price_class`)
+- Entrenamiento con `fit()`
+- Predicción de nuevos ejemplos con `predict()`
 
-## Cómo correr
-1) Generar dataset sintético:
-   py generate_dataset.py
+---
 
-2) Entrenar y predecir:
-   py exercise_predict.py
+## Estructura del proyecto
+
+- `generate_dataset.py` → genera `datasets/train_data_us.csv`
+- `exercise_predict.py` → entrena el modelo y predice 2 apartamentos nuevos
+- `datasets/train_data_us.csv` → dataset sintético (features + `last_price`)
+
+---
+
+## Requisitos
+
+- Python (en Windows suele funcionar con `py`)
+- Librerías:
+  - `pandas`
+  - `scikit-learn`
